@@ -1,19 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
     <link href="style.css" rel="stylesheet">
-    <title id="title-doc">Notepady</title>
+    <script src="script.js" defer></script>
+    <title>Stocks</title>
 </head>
 <body>
-    <nav class="title-nav">Notepady</nav>
-    <div class="div-v">
-        <textarea id="textId" placeholder="Type anything..."></textarea>
-        <button id="button" onclick="saveText()">Save</button>
-        <div id="word-show"></div>
+    <div class="main-dm01p1">
+        <div class="head-dmp"></div>
+        <div class="head-dmp-sb"></div>
+        <div class="body-dmp">
+            <main>
+                <div class="srfheaedm01">
+                   <div class="srfydm1">
+                        <div class="tlydm1">
+                            <a class="irdm">Página Inicial</a>
+                            <span class="spnrdm">
+                                <svg width="14" height="14" viewBox="0 0 24 24" focusable="false" class="nm5er">
+                                    <path d="M7.59 18.59L9 20l8-8-8-8-1.41 1.41L14.17 12"></path>
+                                </svg>
+                            </span>
+                            <a style="margin-left: 3px;">LSHR33 • BVMF</a>
+                        </div>
+                        <div class="rdydm1">LSHR</div>
+                   </div>
+                </div>
+                <div class="grfcmode">
+                    <div class="grfcix">
+                        <div class="trgdmx">
+                            <div>
+                                <div class="rpfcl">
+                                    <div class="ln0ge">
+                                        <div>
+                                            <div class="lngep1">
+                                                <div class="thction">R$ <span id="lsh"></span></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="thifmt">
+                                                <span id="spnnzq" class="nzqx">
+                                                    <div class="zwwe">
+                                                        <span class="zwsvg">
+                                                            <svg class="nmmh5" ocusable="false" width="16" height="16" viewBox="0 0 24 24" id="svgnm">
+                                                                <path id="pth1" d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+                                                                <path id="pth2" d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <span id="perct"></span>%
+                                                    </div>
+                                                </span>
+                                                <span id="spnprct" class="nwyqx"><a id="sign_nl">+</a><span id="acsts"></span> Hoje</span>
+                                            </div>
+                                        </div>
+                                        <div class="lnggx"></div>
+                                    </div>
+                                </div>
+                                <div class="ygujx">
+                                    <span id="current_date"></span> UTC-3 · BRL · BVMF · 
+                                    <span class="kospn">Exoneração de responsabilidade</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hfcix-1">
+                        <div>
+                            <div class="hxert-1">
+                                <div class="vddkx">
+                                    <div class="wuhgg">
+                                        <a>
+                                            <span class="pkgtz">
+                                                <span class="wtnmd">Ativo listado na bolsa de BR</span>
+                                            </span>
+                                        </a>
+                                        <a>
+                                            <span class="pkgtz">
+                                                <span class="wtnmd">Disponibilizado por: AnotherSense Corp.</span>
+                                            </span>
+                                        </a>
+                                        <a>
+                                            <span class="pkgtz">
+                                                <span class="wtnmd">LSH M.O.</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="gvddwy">
+                                    <span>
+                                        <div class="gyerhf">Último fechamento</div>    
+                                    </span>
+                                    <div class="pghrc">R$ <span id="ult_fecht">4,474</span></div>
+                                </div>
+                                <div class="gvddwy">
+                                    <span>
+                                        <div class="gyerhf">Váriações de hoje</div>    
+                                    </span>
+                                    <div class="pghrc">R$ <span id="altac">0,000</span> - R$ <span id="ult_fecht">4,474</span></div>
+                                </div>
+                                <div class="gvddwy">
+                                    <span>
+                                        <div class="gyerhf">Ativos em circulação</div>    
+                                    </span>
+                                    <div class="pghrc">307,5 mi</div>
+                                </div>
+                                <div class="gvddwy">
+                                    <span>
+                                        <div class="gyerhf">Capitalização de mercado</div>    
+                                    </span>
+                                    <div class="pghrc">1,23 bi BRL</div>
+                                </div>
+                                <div class="gvddwy">
+                                    <span>
+                                        <div class="gyerhf">Volume médio mensal</div>    
+                                    </span>
+                                    <div class="pghrc">50,8 mil</div>
+                                </div>
+                            </div>
+                            <div class="hxert-1">
+                                <div class="hxritm">
+                                    <span class="gyerhf">Variação anterior (5 dez.)</span>
+                                    <span class="pghrc dsplr">
+                                        <a class="txtce">+0,633</a>
+                                        <a class="txtce">16,474%</a>
+                                    </span>
+                                </div>
+                                <div class="hxritm">
+                                    <span class="gyerhf">Variação semanal</span>
+                                    <span class="pghrc dsplr">
+                                        <a class="txtce">+0,000</a>
+                                        <a class="txtce">0,000%</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="hxert-1">
+                                <div class="hxbdy-1">
+                                    <div class="oxxby">
+                                        <span class="xdjvb">Sobre</span>
+                                        <div class="svgfhr"></div>
+                                    </div>
+                                </div>
+                                <div class="bdeurf">
+                                    <span>O LSHR ou LSH, é um ativo criado e disponibilizado pela AnotherSense Corporation, cujo valor corresponde ao produto entre a soma e a diferença modular da cotação do euro e do dólar em relação ao real. O LSHR ficou mais popular a partir de 2022 com sua participação em fundos e índices ativos, como o ANSQ e o GERH.</span>  
+                                    <span class="sckspn">mais sobre</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
 </body>
 </html>
-
